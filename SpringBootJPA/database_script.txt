@@ -1,0 +1,7 @@
+CREATE TABLE `Developer` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `langage` varchar(45) NOT NULL,
+  `framework` varchar(45) NOT NULL,
+  `experience` int(11) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;

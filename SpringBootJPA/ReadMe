@@ -1,0 +1,30 @@
+
+# Auteur : Aboubakar Ahamada
+# Date : 22/02/2020
+
+#============= Objectif ====================
+
+Comprendre comment utiliser Spring Boot et Spring JPA pour l'accès des données.
+
+Un application console en utilisant Spring Boot et Spring JPA pour l'accès aux données
+dans une base de données MySQL.  J'ai appris et compris comment Spring JPA nous facilie l'accès aux
+données rien qu'en definissant une intreface qui herite l'interface CrudRepository. Dans notre cas,
+notre interface se nomme DeveloperRepository.
+Ce qui est magique est que nous n'avons pas à implementer cette interface. Spring le fait à notre place 
+pendant l'execution. Il nous fournis les méthodes pour faire des opérations CRUD. 
+
+J'ai appris à ecrire une requete personalisée comme le cas de la requete pour selectionner 
+les Developpeurs seniors (ayant au moins 10 ans experiences).
+
+===================== Fichiers inclus ===================
+
+Une classe Entity nommée Developer
+Une interface DeveloperRepository
+La class principale DeveloperApp 
+Fichier pom.xml pour les dependances
+Fichier application.properties pour configurer les paramètres pour l'acces à la base de données
+Diagramme de classe
+Images 
+
+ 
+
